@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to bottom right,red,yellow,rgb(40, 40, 248));
+}
+
+
+#main{
+    height: 500px;
+    width: 350px;
+    background: linear-gradient(to top,rgb(192, 16, 192),pink);
+    border:5px solid ;
+    border-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet)1;
+    margin:auto;
+    margin-top: 40px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+    line-height: 50px;
+}
+
+#ans{
+    height: 70px;
+    width: 330px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 10px;
+    border: 2px solid black ;
+    border-radius: 7px;
+    color: black;
+    font-size: 2.5rem;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#mainBox{
+    height: 395px;
+    width: 330px;
+    border: 2px solid black ;
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+
+#upperBox{
+    height: 72.5px;
+    width: 330px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Box{
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    margin-top: 6.25px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Box:hover{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.Box:active{
+    color: black;
+}
+
+#centerBox{
+    display: flex;
+}
+
+#num{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom,green,rgb(0, 180, 0));
+}
+
+.numBox{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin:10px ;
+    border-radius: 5px;
+    border: 2px solid black;    
+    cursor: pointer;
+    user-select: none;
+}
+
+.numBox:hover{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.numBox:active{
+    color: black;
+}
+
+#sideBox{
+    height: 250px;
+    width: 80px;
+    background: linear-gradient(to bottom,green,rgb(0, 180, 0));
+}
+
+#minus{
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    user-select: none;
+}
+
+#minus:hover{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+#minus:active{
+    color: black;
+}
+
+#plus{
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    user-select: none;
+}
+
+#plus:hover{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+#plus:active{
+    color: black;
+}
+
+#product{
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    user-select: none;
+}
+
+#product:hover{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+#product:active{
+    color: black;
+}
+
+#bottomBox{
+    height: 72.5px;
+    width: 330px;
+    background: linear-gradient(to bottom,rgb(0, 180, 0),rgb(0, 223, 0));
+    display: flex;
+}
+
+#zero{
+    width: 120px;
+    height: 55px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#zero:hover{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+#zero:active{
+    color: black;
+}
+
+#decimal{
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    user-select: none;
+}
+
+#decimal:hover{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+#decimal:active{
+    color: black;
+}
+
+#equals{
+    width: 60px;
+    height: 55px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    user-select: none;
+}
+
+#equals:hover{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+#equals:active{
+    color: black;
+}
